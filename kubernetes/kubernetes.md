@@ -4,6 +4,7 @@
 
 ```bash
 kubectl get pods
+kubectl get pods -n namespace-name
 ```
 
 ## List Services
@@ -16,6 +17,12 @@ kubectl get services
 
 ```bash
 kubectl describe pod pod-name
+kubectl describe pods -n namespace-name
+```
+## Check Logs
+
+```bash
+kubectl logs pod-name -n namespace-name
 ```
 
 ## Describe a Service
