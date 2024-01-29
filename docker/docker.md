@@ -8,7 +8,6 @@ docker pull image-name[:tag]
 ```
 
 ## Build Images
-
 Build a Docker image, specifying the Dockerfile path and build context:
 
 ```bash
@@ -21,7 +20,6 @@ docker build --no-cache -t your_image_name -f skynet/Dockerfile .
 - `.`: Indicates the build context.
 
 ## List Images
-
 List the Docker images on your local machine:
 
 ```bash
@@ -30,7 +28,6 @@ docker image ls
 ```
 
 ## View Running Images
-
 See the currently running Docker containers:
 
 ```bash
@@ -38,7 +35,6 @@ docker ps
 ```
 
 ## Remove Images
-
 Remove a Docker image by its ID:
 
 ```bash
@@ -46,7 +42,6 @@ docker image rm -f <image-id>
 ```
 
 ## Execute Images
-
 Run a Docker container and enter its shell interactively:
 
 ```bash
@@ -62,7 +57,6 @@ docker system prune -a
 ```
 
 ## Colima Commands
-
 When using Colima for Docker development:
 
 ```bash
