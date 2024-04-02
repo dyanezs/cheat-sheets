@@ -1,7 +1,7 @@
 # Git Commands Cheat Sheet
 
 ## Create a ssh key
-Finds file in the whole filesystem
+Create ssh key
 
 ```bash
 ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
