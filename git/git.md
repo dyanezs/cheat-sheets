@@ -1,6 +1,6 @@
 # Git Commands Cheat Sheet
 
-## Create a ssh key
+## Create a SSH Key
 Create ssh key
 
 ```bash
@@ -20,3 +20,8 @@ ssh-add ~/.ssh/id_rsa
 - Click on "New SSH key" or "Add SSH key."
 - Paste the key into the "Key" field.
 
+## Pull from Remote Branch
+Assuming, we've already cloned the repo with master/main branch in our local, and now we want to pull a specific branch `development`.
+```bash
+git pull origin development
+```
