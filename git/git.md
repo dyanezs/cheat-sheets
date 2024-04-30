@@ -23,5 +23,5 @@ ssh-add ~/.ssh/id_rsa
 ## Pull from Remote Branch
 Assuming, we've already cloned the repo with master/main branch in our local, and now we want to pull a specific branch `development`.
 ```bash
-git pull origin development
+git checkout -b name-local-branch origin/development
 ```
