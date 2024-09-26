@@ -45,3 +45,9 @@ Just after that, I was able to delete the project
 gcloud projects delete <project-id>
 ```
 
+## Delete Static IP Address
+For some reason, in the Console, there's no option to delete these addresses when they have been released. I used this command in gcloud to delete them.
+
+```bash
+gcloud compute addresses delete <name-of-ip-address> --project <project-id> --region <region>
+```
