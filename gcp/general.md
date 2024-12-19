@@ -13,6 +13,12 @@ You can check the changes with:
 gcloud auth list
 ```
 
+Also, before setting the project, it may ask you to login:
+
+```
+gcloud auth login
+```
+
 ## Set Project
 Same as accounts, you can switch between projects in the same account with this:
 
