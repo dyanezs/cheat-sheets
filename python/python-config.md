@@ -4,7 +4,7 @@
 Commands to create a virtual environment and access it.
 
 ```bash
-python -m venv name-venv
+python -m venv <name-venv>
 source ./name-venv/bin/activate
 ```
 
@@ -15,9 +15,18 @@ source ./name-venv/bin/activate
 
 
 ```bash
-python3 -m ipykernel install --name=venv_gcp_anomaly
+python3 -m ipykernel install --name=<name-venv>
 ```
 
 - You may need to install ipykernel.
 - Once you execute this, you will be able to choose the environment in Jupyter.
 
+If we need to uninstall the Kernel:
+```bash
+jupyter kernelspec uninstall <name-venv>
+```
+
+and then
+```bash
+jupyter kernelspec uninstall <name-venv>
+```
